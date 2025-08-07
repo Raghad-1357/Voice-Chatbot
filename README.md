@@ -2,6 +2,8 @@
 
 This project is a simple, real-time voice chatbot built in Python. It creates a conversational AI assistant that listens to your voice, generates intelligent responses using the Cohere Chat API, and speaks the replies back to you in real time.
 
+The assignment was completed as part of a training task for Smart Methods.
+
 ---
 
 ## 🚀 Features
@@ -27,7 +29,7 @@ Before you begin, you need to have the following software installed on your syst
 2. Create a dedicated environment (Recommended) to avoid conflicts with other projects:
    
 bash
-   conda create --name voice_chatbot python=3.9
+   conda create --name voice_chatbot python=3.10
   
 3. Activate the environment before installing libraries:
    
