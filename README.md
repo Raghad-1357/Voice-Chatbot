@@ -28,17 +28,14 @@ Before you begin, you need to have the following software installed on your syst
 1. Open Anaconda Prompt
 2. Create a dedicated environment (Recommended) to avoid conflicts with other projects:
    
-bash
    conda create --name voice_chatbot python=3.10
   
 3. Activate the environment before installing libraries:
    
-bash
    conda activate voice_chatbot
   
 4. Install the necessary libraries for the project:
    
-bash
    pip install cohere RealtimeSTT RealtimeTTS
   
 
@@ -52,17 +49,14 @@ bash
 To run the code, use the Anaconda Prompt:
 1. Open Anaconda Prompt and activate your environment:
    
-bash
    conda activate voice_chatbot
   
 2. Navigate to your project directory using the `cd` command:
    
-bash
    cd C:\Path\To\Your\Project\Folder
   
 3. Execute the script using the `python` command:
    
-bash
    python voice_chatbot.py
   
    The application will start, and you can begin speaking. To exit, press `Ctrl + C`.
