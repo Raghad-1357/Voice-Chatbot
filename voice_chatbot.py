@@ -4,7 +4,7 @@ from RealtimeTTS import TextToAudioStream
 from RealtimeTTS.engines import GTTSEngine
 
 # 1. Initialize Cohere API
-COHERE_API_KEY = "HfcHme3JtlpXv2UV6kDrlR6lz2D0GpPGdUtctNCD"
+COHERE_API_KEY = "YOUR_API_KEY"
 co = cohere.Client(COHERE_API_KEY)
 
 if __name__ == '__main__':
@@ -47,4 +47,5 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"An error occurred: {e}")
         tts_stream.feed("I'm sorry, an error occurred. Please try again.")
+
         tts_stream.play()
