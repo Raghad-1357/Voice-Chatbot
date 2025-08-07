@@ -37,13 +37,16 @@ Before you begin, you need to have the following software installed on your syst
 4. Install the necessary libraries for the project:
    
    pip install cohere RealtimeSTT RealtimeTTS
-  
+
+--
 
 ### 📂 Step 2: Prepare the Project Files
 1. Open VS Code
 2. Go to `File -> Open Folder...` and select an empty folder for your project
 3. Create a new file named `voice_chatbot.py` and copy the project code into it
 4. Replace `"YOUR_API_KEY"` with your actual Cohere API key (You can get one from the [Cohere Dashboard](https://dashboard.cohere.com/))
+
+--
 
 ### ▶️ Step 3: Run the Application
 To run the code, use the Anaconda Prompt:
